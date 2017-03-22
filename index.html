@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WeSwitched</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy">
+<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Campus+Sans+Block">
+ <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Jim+Nightshade">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<!-- navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top animated fadeIn">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand active" href="#particles-js">WeSwitched</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#section2">About Us</a></li>
+        <li><a href="#section3">Quotes</a></li>
+        <li><a href="#section4">Submission</a></li>
+        <li><a href="#section5">Follow Us</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<!-- navbar End-->
+
+
+
+
+
+
+<div class="parallax2">
+<!-- particles.js container -->
+<div id="particles-js" class="animated fadeIn"></div>
+
+
+
+<img id="logo" class="img-responsive center-block animated fadeIn"src="images/logo.png">
+
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+
+
+
+   </div>
+
+
+<div id="section2" class="parallax5">
+
+<div class="text1">About Us</div>
+<div class="text">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem eros, ultrices sed mauris nec, vulputate porta nibh. Quisque varius urna a metus venenatis convallis.</div>
+<div class="text3">
+Fusce ac erat sapien. Proin ac lorem sed nulla faucibus posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur venenatis posuere augue, id cursus mauris congue et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum placerat tellus, eget pulvinar nisi pellentesque ac. Curabitur congue odio vitae mattis finibus..
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div id="section3" class="parallax4">
+
+<div id="content" class="slideshow-container">
+
+<div id="duration" class="mySlides animated slideInLeft">
+
+  <div class="sentence"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem eros, ultrices sed mauris nec, vulputate porta nibh. Quisque varius urna a metus venenatis convallis. Pellentesque id hendrerit augue. Nullam ligula nisl, ultrices sit amet lectus vitae, venenatis aliquet neque. Quisque euismod nibh sed erat bibendum, vel ultrices nunc dapibus. Praesent libero est, facilisis a risus dictum, bibendum pulvinar nulla. Integer sit amet congue ipsum.</p>
+  </div>
+
+</div>
+
+<div id="duration" class="mySlides animated slideInLeft">
+  <div class="sentence"><p>Fusce ac erat sapien. Proin ac lorem sed nulla faucibus posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur venenatis posuere augue, id cursus mauris congue et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum placerat tellus, eget pulvinar nisi pellentesque ac. Curabitur congue odio vitae mattis finibus..</p>
+  </div>
+
+
+</div>
+
+<div id="duration" class="mySlides animated slideInLeft">
+  <div class="sentence"><p>In in efficitur ante. Sed et dolor ornare, hendrerit felis at, aliquam leo. Maecenas sit amet efficitur enim. Nulla malesuada consectetur neque, sit amet pharetra purus rhoncus a. </p>
+  </div>
+</div>
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" activee", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " activee";
+    setTimeout(showSlides, 4000);
+}
+</script>
+<script type="text/javascript">
+             function Ank(t)
+             {
+                var y=document.getElementById("txt");
+                y.value = t.value;
+              }
+        </script>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div id="section4" class="parallax1 ">
+
+
+
+<div class="text1">Share with Us!</div>
+<div class="text">
+
+You can share your quotes, thoughts,musings and tiny tales over here. Just remember the following things-</div>
+<div class="text3">
+<p>1.Content should be yours. Not rephrased,copied,or similar to any idea which has been previously posted.</p>
+<p>2.It takes time for  us to approve and finally put up the tale on our social media handles. So please bear with us a bit.</p>
+</p>3.If you specify the type of content you're submitting, you make things easier for us. So YAAAYYYYY!!! </p>
+</div>
+
+
+
+
+<div class="container wraptocenter">
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" id="myBtn">Let's Switch!</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4>Let's Switch!</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form" method="post" action="post.php">
+            <div class="form-group">
+              <label for="Name"><span class="glyphicon glyphicon-user"></span> Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" name="Name">
+            </div>
+            <div class="form-group">
+              <label for="Instagram">Instagram Username</label>
+              <input type="text" class="form-control" id="Instagram" placeholder="Enter your Instagram username" name="Insta Name">
+            </div>
+
+			<label style="padding:5px;">Select a category for your content</h3></label>
+			<div class="dropdown">
+
+
+         <select name="Type :" id="cmb" data-toggle="dropdown" onChange="Ank(this);" class="btn btn-primary dropdown-toggle">
+<div class="dropdown-menu centerDropdown">
+                                  <option value="Inspirational">Inspirational</option>
+                                  <option value="Short">Short</option>
+            </select>
+</div>
+
+            </div>
+
+			<div class="form-group" style="padding:10px;">
+            <label for="story">Write your story here!</label>
+            <textarea class="form-control" rows="5" id="story" name="Story"></textarea>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>I hereby accept to submit this information to WeSwitched.</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block" name="Submit">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">Maybe later!?</button>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="section5" class="parallax6">
+
+<h1 class="text">Follow us on</h1>
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-sm-4" >
+      <a href="#"><img id="fb"  class="img-responsive center-block animated fadeIn social"src="images/fb.png">
+
+    </div></a>
+	<a href="#">
+    <div class="col-sm-4" >
+     <img id="insta" class="img-responsive center-block animated fadeIn social"src="images/insta.png">
+
+    </div></a>
+	<a href="#">
+	<div class="col-sm-4" >
+      <img id="youtube"class="img-responsive center-block animated fadeIn social"src="images/youtube.png">
+
+    </div></a>
+  </div>
+    </div>
+
+	<h1 class="text">Have any suggestions/feedbacks for us? Let us know.</h1>
+
+
+<div class="container wraptocenter">
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Feedback</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+
+      <div class="modal-content">
+        <div class="modal-header2" >
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="padding:35px 50px;">Feedback</h4>
+        </div>
+        <div class="modal-body2">
+          <form role="form" method="post" action="feedback.php">
+        </div>
+
+		<div class="form-group" style="padding:10px;">
+            <label for="story">We would love to hear from you,</label>
+            <textarea class="form-control" rows="5" id="story" name="fb"></textarea>
+            </div>
+		              <button type="submit" class="btn btn-success btn-block" >Submit</button>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+		</form>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+</div>
+</body>
+</html>

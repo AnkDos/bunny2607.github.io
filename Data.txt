@@ -1,0 +1,48 @@
+Array
+(
+    [Name] => jhjh
+    [Insta_Name] => lhjh
+    [Story] => jhjkhjhj
+    [Submit] => 
+)
+Array
+(
+    [Name] => l;jj
+    [Insta_Name] => kjji
+    [Story] => ijijiji
+    [Submit] => 
+)
+Array
+(
+    [Name] => jhhshkh
+    [Insta_Name] => hhhuhjk
+    [typo] => Short
+    [yo] => Short
+    [Story] => jhkhkjhjhjk
+    [Submit] => 
+)
+Array
+(
+    [Name] => khfhuqhh1ii
+    [Insta_Name] => iuiui ui
+    [typo] => Inspirational
+    [Type] => Inspirational
+    [Story] => feefefef
+    [Submit] => 
+)
+Array
+(
+    [Name] => klhhh
+    [Insta_Name] => kllhl
+    [Type_:] => Short
+    [Story] => uuiy u byyuiyuiyuiustitsyy
+    [Submit] => 
+)
+Array
+(
+    [Name] => Bhadwa
+    [Insta_Name] => Bhwadwa ji
+    [Type_:] => Inspirational
+    [Story] => sali jawan jija pareshan
+    [Submit] => 
+)

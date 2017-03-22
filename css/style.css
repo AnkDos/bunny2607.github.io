@@ -1,0 +1,321 @@
+.social{
+width:25%;
+height:25%;
+
+}
+.text1{
+	padding-top:8%;
+	text-align:center;
+	
+	font-family:"Sorts Mill Goudy",serif;
+	color:#707070;
+	font-size:45px;
+	text-shadow: 2px 2px #000000;
+	letter-spacing: 2px;
+}
+
+#duration{
+	-webkit-animation-duration: 1s;
+}
+
+.centerDropdown {
+ 
+  text-align: center;
+  transform: translate(70%, 0);
+}
+
+
+.mySlides {
+	
+	display:none
+	}
+
+/* Slideshow container */
+.slideshow-container {
+  
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Caption text */
+.text {
+	text-align:center;
+	 padding-top:25px;
+		
+		font-family:"Sorts Mill Goudy";
+		color:#bfbfbf;
+		font-size:35px;
+		
+	text-shadow: 2px 2px #000000;
+}
+
+.text3{
+	text-align:center;
+ padding-top:25px;
+ padding-bottom:25px;
+		
+		font-family:"Sorts Mill Goudy",serif;
+		color:#bfbfbf;
+		font-size:25px;
+	text-shadow: 2px 2px #000000;
+	
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+  
+  
+}
+
+.activee {
+  background-color: #717171;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#logo{
+	position:absolute;
+	width:100%;
+	height:100%;
+	
+	padding-left:20%;
+	padding-right:20%;
+	padding-bottom:2%;
+	padding-top:2%;
+}
+
+#quotes{
+	color:white;
+	
+	
+}
+
+
+.sentence{
+	background-color:black;
+	margin-top:10px;
+	padding-top:8%;
+
+	padding-left:10%;
+	padding-right:10%;
+	color:white;
+	font-family: 'Sorts Mill Goudy', serif;
+	font-size:30px;
+	
+	
+}
+
+.modal-body{
+	background-color:#ffffff;
+	  font-family:"Sorts Mill Goudy",serif;
+	  font-size:16px;
+}
+.modal-body{
+	background-color:#ffffff;
+	  font-family:"Sorts Mill Goudy",serif;
+	  font-size:16px;
+	  margin-left:10px;
+	  margin-right:10px;
+}
+
+ .modal-header, h4, .close {
+      background-color: #2f494b;
+      color:white !important;
+      text-align: center;
+      font-size: 35px;
+	    font-family:"Sorts Mill Goudy",serif;
+  }
+  .modal-header2, h4, .close {
+      background-color: #2f494b;
+      color:white !important;
+      text-align: center;
+      font-size: 35px;
+	    font-family:"Sorts Mill Goudy",serif;
+  }
+  .modal-footer {
+      background-color: #2f494b;
+	    font-family:"Sorts Mill Goudy",serif;
+		font-size:16px;
+  }
+
+ .navbar {
+	 position:absolute;
+	  background:rgba(214, 214, 214, 0.10);
+      background-color:rgba(0, 0, 0, 1)!important;
+      border-color:rgba(214, 214, 214, 1);
+	  outline: 1px solid cyan;
+	  font-family:"Sorts Mill Goudy",serif;
+	  font-size:18px;
+	 
+       
+ }
+ 
+.wraptocenter {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+.wraptocenter * {
+  vertical-align: middle;
+}
+section#work .img-responsive{
+    margin: 0 auto;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../images/12.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+outline: 1px solid cyan;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color:#ffffff;
+	overflow: auto;
+}
+
+
+.parallax4{ 
+    /* The image used */
+   
+outline: 1px solid cyan;
+    /* Set a specific height */
+    height: 500px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color:#000000;
+	overflow: auto;
+}
+
+.parallax6{ 
+    /* The image used */
+   
+outline: 1px solid cyan;
+    /* Set a specific height */
+    height: 400px; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color:#000000;
+	overflow: auto;
+
+}
+
+
+.parallax2 { 
+    
+
+    outline: 1px solid black;
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color:#121212;
+	
+}
+
+.parallax1 { 
+    /* The image used */
+    background-image: url("../images/15b2.jpg");
+     outline: 1px solid black;
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow: auto;
+}
+
+.parallax5 { 
+    /* The image used */
+    background-image: url("../images/15b2.jpg");
+   
+    /* Set a specific height */
+    height: 700px; 
+outline: 1px solid cyan;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow: auto;
+}
+
+
+
+
+
+
+html,body{ 
+	width:100%;
+	height:100%;
+	
+	background-color:black;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  
+  vertical-align:bottom;
+}
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+	position:absolute;
+  width: 100%;
+  height: 100%;
+  
+  background-image:url('../images/18b.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
